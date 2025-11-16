@@ -1,10 +1,3 @@
-
-
-
-
-# 📘 **README.md — Flutter Stopwatch App**
-
-```markdown
 # ⏱️ Flutter Stopwatch App
 
 A simple and beautiful **Stopwatch Timer App** built using **Flutter** and **Dart**.  
@@ -23,7 +16,7 @@ This project is perfect for beginners who want to learn:
 - **Reset Timer**
 - **Beautiful UI with Gradient Background**
 - **Circular Timer Display**
-- **Smooth and clean animations**
+- **Smooth and clean UI**
 
 ---
 
@@ -35,7 +28,7 @@ This project is perfect for beginners who want to learn:
 
 ## 🛠️ Tech Stack
 
-- **Flutter**  
+- **Flutter**
 - **Dart**
 - **Material Design Widgets**
 
@@ -43,12 +36,11 @@ This project is perfect for beginners who want to learn:
 
 ## 📂 Folder Structure
 
-```
-
 lib/
-├── main.dart       # Main app file
+└── main.dart # Main app file
 
-```
+yaml
+Copy code
 
 ---
 
@@ -57,27 +49,24 @@ lib/
 1. Install Flutter: https://flutter.dev/docs/get-started/install  
 2. Clone the repository:
 
-```
+git clone https://github.com/your-username/flutter-stopwatch-app.git
 
-git clone [https://github.com/your-username/flutter-stopwatch-app.git](https://github.com/your-username/flutter-stopwatch-app.git)
+css
+Copy code
 
-```
-
-3. Navigate to the project:
-
-```
+3. Navigate to the project folder:
 
 cd flutter-stopwatch-app
 
-```
+markdown
+Copy code
 
 4. Run the app:
 
-```
-
 flutter run
 
-````
+yaml
+Copy code
 
 ---
 
@@ -95,37 +84,23 @@ void startTimer() {
     setState(() => seconds++);
   });
 }
-````
-
----
-
-## 🎯 Learning Goals
-
+🎯 Learning Goals
 This project helps you learn:
 
-* Stateful Widgets
-* Timer handling in Flutter
-* UI layout (Row, Column, Container)
-* Buttons and Icons
-* Using gradients and custom styling
+Stateful Widgets
 
----
+Timer handling in Flutter
 
-## 🤝 Contributing
+UI layout (Row, Column, Container)
 
+Buttons and Icons
+
+Using gradients and custom styling
+
+🤝 Contributing
 Feel free to fork this project and make improvements.
 Pull requests are welcome!
 
----
-
-## 📄 License
-
-This project is open-source and available under the **MIT License**.
-
----
-
-## ⭐ Support
-
-If you like this project, give it a star ⭐ on GitHub!
-
+📄 License
+This project is open-source and available under the MIT License.
 
